@@ -9,6 +9,7 @@ import Profile from './Pages/Profile'
 import Navbar from './Navbar'
 import Product from './Pages/Product'
 import Checkout from './Pages/Checkout'
+import Searchbar from './Pages/Searchbar'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/' Component={Home}/>
       <Route path='/cart' Component={Cart}/>
       <Route path='/product' Component={Product}/>
+      <Route path='/searchbar' Component={Searchbar}/>
       <Route path='/checkout' Component={Checkout}/>
       <Route path='/settings' Component={Settings}/>
       <Route path='/profile' Component={Profile}/>
